@@ -1,0 +1,19 @@
+{
+ "packagingVersion": "3.0",
+ "name": "solr",
+ "version": "5.4.1",
+ "maintainer": "earthquakesan@docker.io",
+ "description": "This is a single Solr container. Solr is a popular search platform. See documentation for details: http://lucene.apache.org/solr/resources.html#documentation",
+ "website": "http://lucene.apache.org/solr",
+ "framework": false,
+ "tags": ["service", "solr", "search", "index"],
+ "licenses": [
+   {
+     "name": "Apache License 2.0",
+     "url": "https://en.wikipedia.org/wiki/Apache_License"
+   }
+ ],
+ "postInstallNotes": "Solr installed!",
+ "preInstallNotes": "This DC/OS Service is currently EXPERIMENTAL. There may be bugs, incomplete features, incorrect documentation, or other discrepancies. ",
+ "postUninstallNotes": "Thank you for using Solr"
+}

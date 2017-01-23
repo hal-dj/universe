@@ -1,0 +1,21 @@
+{
+  "id": "{{service.name}}",
+  "cpus": "{{solr.cpus}}",
+  "mem": "{{solr.mem}}",
+  "instances": "1",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "{{resource.assets.container.docker.solr}}",
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 0,
+          "servicePort": 0,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "images": {
+   "icon-small": "http://andrewmccarthy.ie/wp-content/uploads/2014/10/solr.png",
+   "icon-medium": "https://swiftsoftinfotechcom.files.wordpress.com/2016/02/solr_logo_rgb.png",
+   "icon-large": "http://www.devinterface.com/system/technologies/images/000/000/029/medium/solr-logo111111.png"
+ },
+ "assets": {
+   "container": {
+     "docker": {
+       "solr": "earthquakesan/solr"
+     }
+   }
+ }
+}
